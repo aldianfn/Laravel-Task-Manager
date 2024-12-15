@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'picture',
+        'role_id'
     ];
 
     /**
@@ -44,5 +46,30 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
+    public function tasks()
+    {
+        return $this->belongsToMany(Task::class);
+    }
+
+    public function task_histories()
+    {
+        return $this->hasMany(TaskHistory::class);
+    }
+
+    public function task_notifications()
+    {
+        return $this->hasMany(TaskNotification::class);
+    }
+
+    public function task_comments()
+    {
+        return $this->hasMany(TaskComment::class);
     }
 }
