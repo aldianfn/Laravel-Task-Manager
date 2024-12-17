@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --primary-a0: #9bca0a;
+    --primary-a10: #a8d03a;
+    --primary-a20: #b4d657;
+    --primary-a30: #c0dc71;
+    --primary-a40: #cbe289;
+    --primary-a50: #d6e8a1;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/* ========== PRIMARY BACKGROUND COLOR ========== */
+/* === Buttons, links === */
+.bg-primary-a0 {
+    background-color: var(--primary-a0);
+}
+
+.bg-primary-a10 {
+    background-color: var(--primary-a10);
+}
+
+.bg-primary-a20 {
+    background-color: var(--primary-a20);
+}
+
+.bg-primary-a30 {
+    background-color: var(--primary-a30);
+}
+
+.bg-primary-a40 {
+    background-color: var(--primary-a40);
+}
+
+.bg-primary-a50 {
+    background-color: var(--primary-a50);
+}
+
+/* === Primary background hover === */
+.hover\:bg-primary-a0:hover {
+    background-color: var(--primary-a0);
+}
+
+.hover\:bg-primary-a10:hover {
+    background-color: var(--primary-a10);
+}
+
+.hover\:bg-primary-a20:hover {
+    background-color: var(--primary-a20);
+}
+
+.hover\:bg-primary-a30:hover {
+    background-color: var(--primary-a30);
+}
+
+.hover\:bg-primary-a40:hover {
+    background-color: var(--primary-a40);
+}
+
+.hover\:bg-primary-a50:hover {
+    background-color: var(--primary-a50);
+}
+
+/* ========== SURFACE BACKGROUND COLOR ========== */
+/* === Cards, backgrounds === */
+.bg-surface-a0 {
+    background-color: #121212;
+}
+
+.bg-surface-a10 {
+    background-color: #282828;
+}
+
+.bg-surface-a20 {
+    background-color: #3f3f3f;
+}
+
+.bg-surface-a30 {
+    background-color: #575757;
+}
+
+.bg-surface-a40 {
+    background-color: #717171;
+}
+
+.bg-surface-a50 {
+    background-color: #8b8b8b;
+}
+
+/* ========== PRIMARY TEXT COLOR ========== */
+/* === Text === */
+.text-primary-a0 {
+    color: var(--primary-a0);
+}
+
+.text-primary-a10 {
+    color: var(--primary-a10);
+}
+
+.text-primary-a20 {
+    color: var(--primary-a20);
+}
+
+.text-primary-a30 {
+    color: var(--primary-a30);
+}
+
+.text-primary-a40 {
+    color: var(--primary-a40);
+}
+
+.text-primary-a50 {
+    color: var(--primary-a50);
+}
+
+/* ========== SURFACE TEXT COLOR ========== */
+/* === Cards, backgrounds === */
+.text-surface-a0 {
+    color: #121212;
+}
+
+.text-surface-a10 {
+    color: #282828;
+}
+
+.text-surface-a20 {
+    color: #3f3f3f;
+}
+
+.text-surface-a30 {
+    color: #575757;
+}
+
+.text-surface-a40 {
+    color: #717171;
+}
+
+.text-surface-a50 {
+    color: #8b8b8b;
+}
+
+/* ========== BORDER SURFACE COLOR ========== */
+/* Border */
+
+.border-surface-a30 {
+    border-color: #3f3f3f;
+}
